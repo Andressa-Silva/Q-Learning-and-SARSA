@@ -2,6 +2,10 @@
 ---
 This project contains the code to train an agent to solve the [Gymnasium Mountain Car environment](https://gymnasium.farama.org/environments/classic_control/mountain_car/) with Q-Learning and SARSA and and compare both.
 
+## The Mountain Car Environment
+---
+![Mountain Car Environment](MountainCarEnvironment.PNG)  
+The environment is two-dimensional and it consists of a car between two hills. The goal of the car is to reach a flag at the top of the hill on the right. The hills are too steep for the car to scale just by moving in the same direction, it has to go back and fourth to build up enough momentum to drive up.
 
 ### Observation Space:
 The are two variables that determine the current state of the environment.
